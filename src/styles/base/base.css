@@ -1,0 +1,56 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 0;
+    background-color: grey;
+    color: white;
+    /*font-family: */
+}
+
+main {
+    display: block;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+
+}
+
+button {
+
+}
+
+button:hover {
+
+}
+
+a {
+    background-color: transparent;
+}
+
+img {
+
+}
