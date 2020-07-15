@@ -2,7 +2,7 @@ import React from "react";
 
 const MessageDisplay = () => {
     return (
-        <div>
+        <div className="col-md-6">
             feed
         </div>
     );

@@ -1,1 +1,5 @@
-export const SET_DATA = "SET_DATA";
+export const SET_CURR_ARTICLE = 'SET_CURR_ARTICLE';
+export const FETCH_ARTICLES = 'FETCH_ARTICLES';
+export const UPDATE_OPINION = 'UPDATE_OPINION';
+export const FETCH_OPINION = 'FETCH_OPINION';
+export const SET_DATA = 'SET_DATA';
