@@ -8,6 +8,8 @@
 .feed-focus-text {
     opacity: 100%;
     color: black;
+    overflow-y: auto;
+    max-height: 531px;
 }
 
 .feed-list-box {
