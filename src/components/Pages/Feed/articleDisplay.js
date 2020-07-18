@@ -26,15 +26,15 @@ const MessageDisplay = props => {
 
     const articleList = props.articles.map(article => {
         return (
-            <button key={article.id} id={article.id} onClick={articleSelect} >
-                <h3> {article.title} </h3>
-                <p> {article.body} </p>
+            <button key={article.id} id={article.id} onClick={articleSelect} className="feed-list-entry" >
+                <h3 className="feed-list-text" > {article.title} </h3>
+                <p className="feed-list-text" > {article.body} </p>
             </button>
         );
     })
 
     return (
-        <div className="col-md-6">
+        <div className="feed-list-box">
             {articleList} 
         </div>
     );

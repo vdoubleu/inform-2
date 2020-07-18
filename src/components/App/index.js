@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 //importing pages
 import FeedPage from "../Pages/Feed";
+import LandingPage from "../Pages/Landing";
 
 //redux
 import { Provider } from "react-redux";
@@ -13,7 +14,8 @@ const App = () => {
         <Router>
             <Provider store={store}>
                 <Switch>
-                    <Route path="/" component={FeedPage} exact />
+                    <Route path="/" component={LandingPage} exact />
+                    <Route path="/feed" component={FeedPage} exact />
                 </Switch>
             </Provider>
         </Router>

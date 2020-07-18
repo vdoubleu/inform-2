@@ -13,8 +13,12 @@ const FeedPage = () => {
                     <h3> My Feed </h3>
                 </div>
                 <div className="row" >
-                    <ArticleDisplay />
-                    <ArticleFocus />
+                    <div className="col-md-6" >
+                        <ArticleDisplay />
+                    </div>
+                    <div className="col-md-6" >
+                        <ArticleFocus />
+                    </div>
                 </div>
             </div>
         </div>
